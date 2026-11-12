@@ -51,6 +51,7 @@
     <section class="pet-section" aria-labelledby="pet-title">
       <h2 id="pet-title">My Virtual Dog</h2>
       <div class="pet-panel">
+        <p id="storage-notice" class="storage-notice" role="status" hidden></p>
         <form id="adopt-form" novalidate>
           <div class="field">
             <label for="breed">Breed</label>
@@ -82,9 +83,15 @@
               <div><dt>Growth stage</dt><dd id="pet-stage"></dd></div>
               <div><dt>Happiness</dt><dd id="pet-happiness"></dd></div>
             </dl>
+            <div class="growth">
+              <label for="pet-growth">Growth progress</label>
+              <progress id="pet-growth" value="1" max="3"></progress>
+            </div>
             <div class="pet-actions">
               <button id="feed" type="button">Feed</button>
               <button id="play" type="button">Play</button>
+              <button id="next-day" type="button">Next Day</button>
+              <button id="start-over" class="secondary" type="button">Start Over</button>
             </div>
           </div>
         </div>
