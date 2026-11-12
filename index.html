@@ -11,7 +11,7 @@
   <header class="hero">
     <div class="container">
       <h1>Virtual Dog Park</h1>
-      <p>Meet three breeds and learn how to care for them.</p>
+      <p>Meet three breeds and adopt a dog of your own.</p>
     </div>
   </header>
 
@@ -46,6 +46,48 @@
             <p><strong>Care</strong> Brush its curls often and give it games to figure out.</p>
           </div>
         </article>
+      </div>
+    </section>
+    <section class="pet-section" aria-labelledby="pet-title">
+      <h2 id="pet-title">My Virtual Dog</h2>
+      <div class="pet-panel">
+        <form id="adopt-form" novalidate>
+          <div class="field">
+            <label for="breed">Breed</label>
+            <select id="breed" name="breed">
+              <option value="beagle">Beagle</option>
+              <option value="golden-retriever">Golden Retriever</option>
+              <option value="poodle">Poodle</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="dog-name">Dog name</label>
+            <input id="dog-name" name="dog-name" type="text" maxlength="20"
+              placeholder="e.g. Buddy" aria-describedby="name-hint name-error" required>
+          </div>
+          <button type="submit">Adopt</button>
+          <div class="form-feedback">
+            <p id="name-hint">Up to 20 characters.</p>
+            <p id="name-error" role="alert"></p>
+          </div>
+        </form>
+
+        <div id="pet-card" class="pet-card" hidden>
+          <img id="pet-image" width="320" height="160" alt="">
+          <div class="pet-details">
+            <h3 id="pet-name" tabindex="-1"></h3>
+            <p id="pet-breed"></p>
+            <dl class="pet-stats" aria-live="polite">
+              <div><dt>Day</dt><dd id="pet-day"></dd></div>
+              <div><dt>Growth stage</dt><dd id="pet-stage"></dd></div>
+              <div><dt>Happiness</dt><dd id="pet-happiness"></dd></div>
+            </dl>
+            <div class="pet-actions">
+              <button id="feed" type="button">Feed</button>
+              <button id="play" type="button">Play</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
