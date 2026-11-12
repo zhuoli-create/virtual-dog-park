@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title">
+  <title id="title">Golden Retriever in a sunny park</title>
+  <rect width="320" height="160" fill="#f5ead1"/>
+  <circle cx="247" cy="42" r="21" fill="#fffae6" opacity=".8"/>
+  <path d="M0 112Q57 91 109 106T216 109Q276 91 320 107V160H0Z" fill="#eaddad"/>
+  <ellipse cx="161" cy="132" rx="96" ry="8" fill="#a1935e" opacity=".34"/>
+  <path d="m38 125 4-8 4 8m225 6 4-8 4 8m-13 0-3-6" fill="none" stroke="#a1935e" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#654126" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M209 83q31-1 44-26 0 24-21 38l-11 6 4-8-14 2Z" fill="#d69c4f"/>
+    <path d="M143 100l-5 29h-15l5-32m70 7 6 25h15l-7-32" fill="#bf813a"/>
+    <path d="M119 67q14-3 30 6 23-9 46-2 24 0 27 18 2 10-11 20l2 20h-17l-6-24-11 5 1-5-14 4-17-3-4 23h-16l-2-26-10-5 3-3-13-4 6-4-7-5Z" fill="#dfaa5d"/>
+    <path d="M82 60q1-19 22-25 25-6 36 13 9 21-9 37-10 8-23 0l-20-4q-12-2-12-14Z" fill="#e8b86d"/>
+    <path d="M125 44q14-3 19 10 7 18-6 31-13 9-17-5-2-11 1-24Z" fill="#bc7b39"/>
+    <path d="M77 65q8-4 12 2-3 7-10 6Z" fill="#483025"/>
+    <path d="M92 77q8 5 14-1" fill="none"/>
+    <circle cx="106" cy="54" r="2.7" fill="#483025" stroke="none"/>
+  </g>
+</svg>

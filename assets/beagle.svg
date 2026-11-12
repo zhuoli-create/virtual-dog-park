@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title">
+  <title id="title">Tricolor Beagle in a grassy park</title>
+  <rect width="320" height="160" fill="#e6ebd9"/>
+  <circle cx="247" cy="42" r="21" fill="#fffae6" opacity=".8"/>
+  <path d="M0 112Q57 91 109 106T216 109Q276 91 320 107V160H0Z" fill="#d2dfbd"/>
+  <ellipse cx="161" cy="132" rx="96" ry="8" fill="#82946a" opacity=".34"/>
+  <path d="m38 125 4-8 4 8m225 6 4-8 4 8m-13 0-3-6" fill="none" stroke="#82946a" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#402e26" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M210 86q25-7 25-40 7-6 10 1 4 35-26 51Z" fill="#aa6840"/>
+    <path d="M235 53q1-4 0-7 7-6 10 1l1 11Z" fill="#fff5df"/>
+    <path d="M143 105l-4 25h-14l2-28m70 6 6 22h14l-6-31" fill="#d3b592"/>
+    <path d="M121 75q34-13 65-2 27-2 36 17 6 14-7 24l-1 15h-15l-6-24q-15 10-42 2l-4 22h-16l-1-24q-20-5-17-24Z" fill="#fff5df"/>
+    <path d="M135 72q30-11 54 1 25-1 32 17-10 10-32 7-8-13-28-9-22 7-26-16Z" fill="#46352d"/>
+    <path d="M88 63q3-24 29-27 26-4 34 19 8 26-18 36-15 7-31-1L83 88q-9-3-9-13Z" fill="#bf7847"/>
+    <path d="M111 38q-5 14-2 24-10 8-24 4l-11 9q0 10 9 13l20 2q9 3 17 1-13-16-5-26 5-15 5-29Z" fill="#fff5df" stroke="none"/>
+    <path d="M138 48q13-2 17 10 5 18-10 30-14 7-18-4-2-10 5-30Z" fill="#905131"/>
+    <path d="M74 73q9-4 13 2-2 7-9 7Z" fill="#402e26"/>
+    <circle cx="112" cy="59" r="2.7" fill="#402e26" stroke="none"/>
+  </g>
+</svg>
